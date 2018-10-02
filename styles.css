@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+.search-bar {
+  text-align: center;
+}
+.search-bar input {
+  width: 80%;
+  height: 80px;
+  font-size: 20px;
+}
+.search-bar input::placeholder {
+  font-size: 20px;
+}
+.list {
+  text-align: center;
+}
+
+h4 {
+  pointer-events: none;
+}
+.name_card {
+  width: 75%;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  border-width: thin;
+  border-color: #dedede;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #606060;
+}
+.name_card:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
